@@ -19,3 +19,23 @@ ohana-sai/.env.production.local
 ohana-sai/npm-debug.log*
 ohana-sai/yarn-debug.log*
 ohana-sai/yarn-error.log*
+
+# Hugo Ignore
+# Binaries for programs and plugins
+Hugo-SJSURF/*.exe
+Hugo-SJSURF/*.exe~
+Hugo-SJSURF/*.dll
+Hugo-SJSURF/*.so
+Hugo-SJSURF/*.dylib
+
+# Test binary, built with `go test -c`
+Hugo-SJSURF/*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+Hugo-SJSURF/*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+Hugo-SJSURF/go.work
