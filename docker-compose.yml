@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  ohana-sai:
+    build:
+      context: ./ohana-sai
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+
+  hugo:
+    build:
+      context: ./Hugo-SJSURF
+      dockerfile: Dockerfile
+    networks:
+      - app-network
+
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./ohana-sai/client/build/static:/usr/share/nginx/html/static
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./Hugo-SJSURF/public:/usr/share/nginx/html/hugo
+    ports:
+      - "80:80"
+    depends_on:
+      - ohana-sai
+      - hugo
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

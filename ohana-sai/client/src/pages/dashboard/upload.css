@@ -1,0 +1,242 @@
+.upload {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.upload-resource-page{
+  overflow: auto;
+  height: calc(100vh - 110px);
+}
+
+.height-unset{
+  height: unset !important;
+}
+
+.upload-resource-page h2 {
+  display: flex;
+  /* background-color: gold; */
+  /* background-color: #2cb1bc2b; */
+  background-color: var(--green-light);
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.upload-resource-page p {
+  /* background-color: lightblue; */
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0;
+  max-width: unset;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input[type="file"] {
+  cursor: pointer;
+}
+
+.file-icons[type="file"] {
+  color: coral;
+  cursor: pointer;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-section h2 {
+  background-color: var(--green-light);
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+/* .search-section label {
+  font-weight: bold;
+  background-color: chocolate;
+} */
+/* Other styles */
+
+/* Add this CSS to your existing stylesheet */
+.file-type-icon {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+  color: #3498db; /* Change the color as desired */
+  transition: color 0.3s ease-in-out;
+}
+
+.file-type-icon i {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.file-type-icon span {
+  font-size: 14px;
+}
+
+.file-type-icon:hover {
+  color: #e74c3c; /* Change the hover color as desired */
+}
+
+.search-results-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.search-results-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Additional styles for list items, headings, etc. */
+.search-results-container h3 {
+  background-color: var(--green-light);
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.search-results-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results-card p {
+  list-style-type: none;
+  padding: 0;
+  /* background-color: orange; */
+}
+
+.search-results-card li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.min-height--75 {
+  min-height: 75px !important;
+}
+
+.min-height--150 {
+  min-height: 150px !important;
+}
+
+.form-floating.col > label {
+  left: 4px;
+}
+
+.form-floating > label {
+  z-index: 0;
+}
+
+.left--unset{
+  position: absolute;
+  left:unset !important;
+}
+
+.toaster-btm{
+  position: absolute;
+  left: 47%; 
+  bottom: 100px;
+  padding: 15px 30px !important;
+  background: var(--grey-100);
+  border: solid 0.75px var(--grey-700);
+  border-radius: 8px;
+}
+
+.slide-in-bottom-then-hide {
+	-webkit-animation: slide-in-bottom-then-hide 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom-then-hide 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-bottom-then-hide {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+}
+@keyframes slide-in-bottom-then-hide {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    opacity: 0;
+  }
+}

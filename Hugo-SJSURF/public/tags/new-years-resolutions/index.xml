@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Year&#39;s Resolutions on Ohana Excellence</title>
+    <link>http://localhost/hugo/tags/new-years-resolutions/</link>
+    <description>Recent content in New Year&#39;s Resolutions on Ohana Excellence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 01:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost/hugo/tags/new-years-resolutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mental Health: A New Focus for the New Year</title>
+      <link>http://localhost/hugo/posts/my-first-post/</link>
+      <pubDate>Fri, 24 Nov 2023 01:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-first-post/</guid>
+      <description>Introduction As we step into the new year, mental health emerges as a top priority for many, surpassing traditional resolutions. This post reflects on the changing attitudes towards mental health and the importance of self-care.</description>
+    </item>
+  </channel>
+</rss>

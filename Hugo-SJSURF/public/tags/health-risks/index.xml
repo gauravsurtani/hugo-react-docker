@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Health Risks on Ohana Excellence</title>
+    <link>http://localhost/hugo/tags/health-risks/</link>
+    <description>Recent content in Health Risks on Ohana Excellence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 03:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost/hugo/tags/health-risks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Unseen Dangers of Polysubstance Abuse</title>
+      <link>http://localhost/hugo/posts/my-third-post/</link>
+      <pubDate>Fri, 24 Nov 2023 03:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-third-post/</guid>
+      <description>Discussion Highlighting the risks of polysubstance abuse, this post aims to shed light on the dangerous and often unpredictable consequences of mixing various substances.</description>
+    </item>
+  </channel>
+</rss>

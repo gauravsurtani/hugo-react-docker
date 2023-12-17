@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ohana Excellence</title>
+    <link>http://localhost/hugo/posts/</link>
+    <description>Recent content in Posts on Ohana Excellence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 05:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost/hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aftermath of the Mililani Mauka Fire</title>
+      <link>http://localhost/hugo/posts/my-fifth-post/</link>
+      <pubDate>Fri, 24 Nov 2023 05:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-fifth-post/</guid>
+      <description>Insight Exploring the devastating impact of the Mililani Mauka fire on Hawaii&amp;rsquo;s natural landscape, this post highlights the environmental and ecological consequences of wildfires.</description>
+    </item>
+    <item>
+      <title>Testing Some New Content</title>
+      <link>http://localhost/hugo/posts/my-sixth-post/</link>
+      <pubDate>Fri, 24 Nov 2023 05:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-sixth-post/</guid>
+      <description>Insight Exploring the TEST.</description>
+    </item>
+    <item>
+      <title>Community Resilience: Honoring Hawaii`s Firefighters</title>
+      <link>http://localhost/hugo/posts/my-fourth-post/</link>
+      <pubDate>Fri, 24 Nov 2023 04:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-fourth-post/</guid>
+      <description>Reflection This post captures the spirit of a Hawaiian community as they come together to honor the bravery and dedication of their firefighters.</description>
+    </item>
+    <item>
+      <title>The Unseen Dangers of Polysubstance Abuse</title>
+      <link>http://localhost/hugo/posts/my-third-post/</link>
+      <pubDate>Fri, 24 Nov 2023 03:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-third-post/</guid>
+      <description>Discussion Highlighting the risks of polysubstance abuse, this post aims to shed light on the dangerous and often unpredictable consequences of mixing various substances.</description>
+    </item>
+    <item>
+      <title>Addressing the Teen Mental Health Crisis</title>
+      <link>http://localhost/hugo/posts/my-second-post/</link>
+      <pubDate>Fri, 24 Nov 2023 02:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-second-post/</guid>
+      <description>Overview This post delves into the challenges and complexities of the teen mental health crisis, underscoring the need for awareness and support.</description>
+    </item>
+    <item>
+      <title>Mental Health: A New Focus for the New Year</title>
+      <link>http://localhost/hugo/posts/my-first-post/</link>
+      <pubDate>Fri, 24 Nov 2023 01:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-first-post/</guid>
+      <description>Introduction As we step into the new year, mental health emerges as a top priority for many, surpassing traditional resolutions. This post reflects on the changing attitudes towards mental health and the importance of self-care.</description>
+    </item>
+  </channel>
+</rss>

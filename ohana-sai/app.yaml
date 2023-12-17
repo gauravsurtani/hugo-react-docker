@@ -1,0 +1,33 @@
+runtime: nodejs16
+env: standard
+
+entrypoint: 'node server.js'
+
+env_variables:
+  NODE_ENV: 'production'
+
+automatic_scaling:
+  min_idle_instances: 1
+  max_idle_instances: automatic
+  min_pending_latency: automatic
+  max_pending_latency: automatic
+
+# Health checks configuration (optional)
+liveness_check:
+  path: "/liveness_check"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 1
+readiness_check:
+  path: "/readiness_check"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 1
+
+# Resources allocation (optional)
+resources:
+  cpu: 1
+  memory_gb: 1
+  disk_size_gb: 10

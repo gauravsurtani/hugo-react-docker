@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wildfires on Ohana Excellence</title>
+    <link>http://localhost/hugo/tags/wildfires/</link>
+    <description>Recent content in Wildfires on Ohana Excellence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 05:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost/hugo/tags/wildfires/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aftermath of the Mililani Mauka Fire</title>
+      <link>http://localhost/hugo/posts/my-fifth-post/</link>
+      <pubDate>Fri, 24 Nov 2023 05:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-fifth-post/</guid>
+      <description>Insight Exploring the devastating impact of the Mililani Mauka fire on Hawaii&amp;rsquo;s natural landscape, this post highlights the environmental and ecological consequences of wildfires.</description>
+    </item>
+    <item>
+      <title>Community Resilience: Honoring Hawaii`s Firefighters</title>
+      <link>http://localhost/hugo/posts/my-fourth-post/</link>
+      <pubDate>Fri, 24 Nov 2023 04:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-fourth-post/</guid>
+      <description>Reflection This post captures the spirit of a Hawaiian community as they come together to honor the bravery and dedication of their firefighters.</description>
+    </item>
+  </channel>
+</rss>

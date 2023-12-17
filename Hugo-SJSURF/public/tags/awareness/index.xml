@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awareness on Ohana Excellence</title>
+    <link>http://localhost/hugo/tags/awareness/</link>
+    <description>Recent content in Awareness on Ohana Excellence</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 02:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost/hugo/tags/awareness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Addressing the Teen Mental Health Crisis</title>
+      <link>http://localhost/hugo/posts/my-second-post/</link>
+      <pubDate>Fri, 24 Nov 2023 02:00:00 -0800</pubDate>
+      <guid>http://localhost/hugo/posts/my-second-post/</guid>
+      <description>Overview This post delves into the challenges and complexities of the teen mental health crisis, underscoring the need for awareness and support.</description>
+    </item>
+  </channel>
+</rss>
