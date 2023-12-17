@@ -1,0 +1,21 @@
+# dependencies
+ohana-sai/node_modules/
+ohana-sai/.pnp
+ohana-sai/.pnp.js
+
+# testing
+ohana-sai/coverage/
+
+# production
+ohana-sai/build/
+
+# misc
+ohana-sai/.DS_Store
+ohana-sai/.env.local
+ohana-sai/.env.development.local
+ohana-sai/.env.test.local
+ohana-sai/.env.production.local
+
+ohana-sai/npm-debug.log*
+ohana-sai/yarn-debug.log*
+ohana-sai/yarn-error.log*
